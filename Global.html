@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global CSS</title>
+    <style>
+        /* Global style */
+        /* tag selector */
+        body{
+            background-color: #333;
+            color: #fff;   
+            width: 360px;  
+        } 
+        p{  background-color: #00884886; 
+            width: 100px; 
+            height:100px; 
+            float: left; 
+            margin: 10px;
+        }
+        /* Class selectior */
+        /* a..zA...Z0...9_ */
+        .row{
+            background-color: brown;          
+            }
+        .col{
+            border-radius: 100px;
+            }
+            /* Id selector  */
+        #first{
+            border-radius: 100px 0 0 0;
+
+        }  
+        #last{
+            border-radius: 0 0 100px 0;
+        }  
+
+    </style>
+    
+</head>
+    <body >
+      <p id="first">1</p>
+
+      <p class="col">2</p>
+
+      <p>3</p>
+
+      <p class="row">4</p>
+
+      <p  class="col row">5</p>
+
+      <p class="row">6</p>
+
+      <p>7</p>
+
+      <p class="col">8</p>
+
+      <p id="last">9</p> 
+
+    </body>
+</html>
