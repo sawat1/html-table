@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #777;
+            margin: 0 0 0 0;
+        }
+        #navigation{
+            background-color: #555;  
+            width: 250px;
+            box-shadow: 0 0 3px 2px #111; 
+            margin-left: -252px;
+        }
+        ul{
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial;
+        }
+        li{
+            padding: 15px 20px 15px 20px;
+            border-bottom: 1px solid #222
+        }
+        #arrow{
+            font-family: Arial;
+            font-size: 54px;
+            margin-left: 230px;
+            color:#555;
+            /* linlin anime */
+            animation: flashing 3s infinite;
+
+        }
+        li:hover{
+           background-color: aqua;
+        }
+        li:last-child:hover{
+            background-color: transparent;
+
+        }
+        #navigation:hover{
+            margin-left: 0;
+            transition: 0.5s;
+        }
+        /* ad rules animations in CSS */
+        @keyframes flashing{
+            from{ color:#5557;}
+            to {color: #555f; }
+        }
+    </style>
+</head>
+<body>
+    <nav id="navigation">
+        <ul>
+            <li>
+                <a href=""><img src="http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/32/Home-icon.png" alt=""> Home</a></li>
+            <li>
+                <a href=""><img src="http://icons.iconarchive.com/icons/treetog/junior/32/camera-icon.png" alt=""></img> Photos</a></li>
+            <li>
+                <a href=""><img src="http://icons.iconarchive.com/icons/everaldo/crystal-clear/32/App-Community-Help-icon.png" alt=""> Community</a></li>
+            <li>
+                <a href=""><img src="http://icons.iconarchive.com/icons/google/noto-emoji-objects/32/62866-page-with-curl-icon.png" alt=""> Pages</a></li>
+            <li>
+                <a href=""><img src="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/32/hot-icon.png" alt=""> Hot</a></li>
+            <li >
+            <a id="arrow" href="" >&#10263;</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

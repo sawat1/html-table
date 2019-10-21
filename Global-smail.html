@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global-Smile</title>
+    <style>
+        body{
+            background-color: #333;
+            }
+            #smile { 
+                height: 200px;
+                width: 200px;
+                background-color: yellow;
+                margin: 100px;
+                border-radius: 200px;                
+            }
+            .eye{
+                height: 40px;
+                width: 40px;
+                background-color:#000;
+                /* margin: 100px; */
+                border-radius: 100px; 
+                border: 3px solid green;
+                border-right-width: 0px; 
+
+            }
+            .left{
+                float: left;
+                margin-left: 30px;
+                margin-top:  40px;
+
+            }
+            .right{
+                float:right;
+                margin-right: 30PX;
+                margin-top: 40px
+            }
+            .mouth{
+                height: 50px;
+                width: 20px;
+                background-color: #000;
+                float: left;
+                margin-left: 30px;
+
+            }
+            .eye:hover{
+                Transform: scaleY(0.5)
+            }
+    </style>
+</head>
+<body>
+
+    <div id="smile">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="mouth"></div>
+    </div>
+</body>
+</html>
